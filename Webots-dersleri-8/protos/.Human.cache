@@ -1,0 +1,11 @@
+Webots Proto Cache File version 1.4
+protoFileHash: 632a4767b836c65650cd81c40d48ca0b
+containsDevices: 1
+baseType: Robot
+slotType: 
+parameters: translation,rotation,controller
+tags: 
+license:  Apache License 2.0
+licenseUrl:  http://www.apache.org/licenses/LICENSE-2.0
+documentationUrl: 
+info: This\sis\sa\sproto\sfile\sfor\sWebots\sfor\sthe\sHuman\nExtracted\sfrom:\sgait2392_simbody/urdf/human.urdf\n

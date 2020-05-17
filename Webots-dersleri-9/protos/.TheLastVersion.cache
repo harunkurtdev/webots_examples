@@ -1,0 +1,11 @@
+Webots Proto Cache File version 1.4
+protoFileHash: 22c0a9360ecd101996ecf61893f7f8a2
+containsDevices: 1
+baseType: Robot
+slotType: 
+parameters: translation,rotation,controller
+tags: 
+license:  Apache License 2.0
+licenseUrl:  http://www.apache.org/licenses/LICENSE-2.0
+documentationUrl: 
+info: This\sis\sa\sproto\sfile\sfor\sWebots\sfor\sthe\sTheLastVersion\nExtracted\sfrom:\sC:\\Users\\X\\Desktop\\webots_deneme_urdf\\the_last_version\\urdf\\the_last_version.urdf\n

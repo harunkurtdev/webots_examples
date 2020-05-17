@@ -1,0 +1,136 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+  info [
+    "Pioneer 3DX robot (Adept Mobile Robots)"
+    "This two-wheel two-motor, differential wheel robot is equipped with a Microsoft kinect"
+    "It is programmed to perform a simple obstacle avoidance behavior based on sensed values situated on a medium-height line of the kinect display"
+  ]
+  title "Pioneer 3DX equipped with a Microsoft kinect"
+}
+Viewpoint {
+  fieldOfView 0.660595
+  orientation 0.7555537464719442 -0.6538146814114936 -0.040803168541136255 5.993344301470241
+  position 4.532931538399343 4.590738971911193 14.465455591419044
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 800 800
+  floorTileSize 1 1
+  floorAppearance Parquetry {
+  }
+  wallHeight 0.4
+}
+Ball {
+  translation 5.43 0.09991368535516183 -0.96
+  name "ball(8)"
+  radius 0.1
+}
+Ball {
+  translation 4.28 0.09991368535516183 -2.99
+  name "ball(6)"
+  radius 0.1
+}
+Ball {
+  translation 1.9 0.09991368535516183 -2.67
+  name "ball(7)"
+  radius 0.1
+}
+Ball {
+  translation -5.012849901983524 0.09991368534621023 0
+  rotation 0 0 -1 -0.07724119781183555
+  name "ball(15)"
+  radius 0.1
+}
+Ball {
+  translation -0.2410434063292052 0.09991368535123402 -1.2743714303028963
+  rotation -0.024440928683118483 0.9996632050187335 -0.008724536479388168 -2.7853243438970128
+  name "ball(1)"
+  radius 0.1
+}
+Ball {
+  translation 0.6853600252529718 0.09991368532870888 -1.1646110246948311
+  rotation -0.02399071113960471 0.9918917836144544 -0.12480038211941764 -0.7708050292400281
+  name "ball(2)"
+  radius 0.1
+}
+Ball {
+  hidden linearVelocity_0 -0.04064447031641167 3.882119642131258e-05 0.3061063806763125
+  hidden angularVelocity_0 3.0431912393285807 0.2204203116024305 0.40405347546928994
+  translation 2.8146955835278336 0.09991141655719724 0.6534005524152404
+  rotation 0.9915664744859982 0.11172025604736814 0.0656849378786249 0.1825322809608636
+  name "ball(3)"
+  radius 0.1
+}
+Ball {
+  translation -1.86 0.09991368535516183 -1.36
+  name "ball(4)"
+  radius 0.1
+}
+Ball {
+  translation 1.9 0.09991368535516183 1.01
+  name "ball(5)"
+  color 0 0 0
+  radius 0.1
+}
+DEF PIONEER_3DX Pioneer3dx {
+  hidden position_0_0 -6.280646875562229
+  hidden position_0_1 7172.338114371366
+  hidden position_0_2 6099.3806373306525
+  hidden linearVelocity_0 -0.07938090854815975 5.67394006168617e-10 0.2956797138645275
+  hidden angularVelocity_0 -1.8338370495382667e-06 9.008358056595425e-05 6.878035621930844e-06
+  hidden rotation_1 0 -0.9999999999999999 0 6.2806468755622085
+  hidden position_1_0 -17242.24462549379
+  hidden linearVelocity_1 -0.07939886548669514 2.4511842337343104e-09 0.295674892214806
+  hidden angularVelocity_1 -1.6726035387286552e-06 9.049904667945323e-05 6.248146241125068e-06
+  hidden rotation_2 -1 0 0 1.1841425930042067
+  hidden linearVelocity_2 -0.07940639842906475 2.4573311538669186e-09 0.29567286945961513
+  hidden angularVelocity_2 7.884493215500712 0.00016487090031789073 2.1179381610662986
+  hidden rotation_4 1 0 0 3.0595064277218382
+  hidden linearVelocity_4 -0.07937146439990916 1.1516675473495788e-06 0.2956713723692293
+  hidden angularVelocity_4 3.0326576110789727 0.00010278048236752662 0.8139872609270011
+  hidden rotation_9 -1 0 0 4.690889366453579
+  hidden linearVelocity_9 -0.07937243518513305 -1.1517582271454448e-06 0.2956928668256223
+  hidden angularVelocity_9 3.032661499105581 0.00010213524843250613 0.8139882857154387
+  hidden position_28_0 -2.351025520076681e-10
+  hidden linearVelocity_29 -0.07937724703391391 -4.774745911064516e-10 0.2956806981761175
+  hidden angularVelocity_29 -1.8338375023579275e-06 9.008358061610459e-05 6.8780354644552725e-06
+  translation 2.7069725145038914 0.09472856170641532 0.2788040866675465
+  rotation 0.0018637951708907175 0.9998981908902818 -0.014146876754346716 2.8793965468621736
+  controller "main1"
+  extensionSlot [
+    Kinect {
+      translation 0 0.15 0
+      width 150
+      height 100
+    }
+  ]
+}
+CardboardBox {
+  translation -0.36307 0.3 -2.01063
+}
+CardboardBox {
+  translation 7.10796 0.3 2.17641
+  name "cardboard box(1)"
+}
+FloorLight {
+  translation -0.398663 0 0.184194
+  pointLightCastShadows TRUE
+}
+WoodenBox {
+  translation 5.18359 0.3 -2.40932
+}
+WoodenBox {
+  translation 1.20377 0.3 -3.11289
+  name "wooden box(1)"
+}
+WoodenBox {
+  translation 6.96896 0.3 0.25421
+  name "wooden box(2)"
+}
+WoodenBox {
+  translation 3.37042 0.3 -3.56296
+  name "wooden box(3)"
+}

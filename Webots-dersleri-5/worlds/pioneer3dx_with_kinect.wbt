@@ -1,0 +1,99 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+  info [
+    "Pioneer 3DX robot (Adept Mobile Robots)"
+    "This two-wheel two-motor, differential wheel robot is equipped with a Microsoft kinect"
+    "It is programmed to perform a simple obstacle avoidance behavior based on sensed values situated on a medium-height line of the kinect display"
+  ]
+  title "Pioneer 3DX equipped with a Microsoft kinect"
+}
+Viewpoint {
+  fieldOfView 0.660595
+  orientation 0.9962644842429923 -0.06646681011864274 0.05512930789241636 6.133787585339677
+  position 6.018586762664478 2.8992656801702 14.590390924250972
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 800 800
+  floorTileSize 1 1
+  floorAppearance Parquetry {
+  }
+  wallHeight 0.4
+}
+Ball {
+  translation 5.43 0.0325 -0.96
+  name "ball(8)"
+}
+Ball {
+  translation 4.28 0.0325 -2.99
+  name "ball(6)"
+}
+Ball {
+  translation 1.9 0.0325 -2.67
+  name "ball(7)"
+}
+Ball {
+  translation -1.86 0.0325 0
+  name "ball(15)"
+}
+Ball {
+  translation -1.86 0.0325 0
+  name "ball(1)"
+}
+Ball {
+  translation 3.59 0.0325 -0.62
+  name "ball(2)"
+}
+Ball {
+  translation 2.9 0.0325 0
+  name "ball(3)"
+}
+Ball {
+  translation -1.86 0.0325 -1.36
+  name "ball(4)"
+}
+Ball {
+  translation 1.9 0.0325 1.01
+  name "ball(5)"
+}
+DEF PIONEER_3DX Pioneer3dx {
+  translation 3.85393 0.00216775 1.01742
+  rotation 0.008242461651336921 0.9997372002924637 0.02139140428566334 -1.3443353071795858
+  controller "main"
+  extensionSlot [
+    Kinect {
+      translation 0 0.15 0
+      width 150
+      height 100
+    }
+  ]
+}
+CardboardBox {
+  translation -0.36307 0.3 -2.01063
+}
+CardboardBox {
+  translation 7.10796 0.3 2.17641
+  name "cardboard box(1)"
+}
+FloorLight {
+  translation -0.398663 0 0.184194
+  pointLightCastShadows TRUE
+}
+WoodenBox {
+  translation 5.18359 0.3 -2.40932
+}
+WoodenBox {
+  translation 1.20377 0.3 -3.11289
+  name "wooden box(1)"
+}
+WoodenBox {
+  translation 6.96896 0.3 0.25421
+  name "wooden box(2)"
+}
+WoodenBox {
+  translation 3.37042 0.3 -3.56296
+  name "wooden box(3)"
+}
