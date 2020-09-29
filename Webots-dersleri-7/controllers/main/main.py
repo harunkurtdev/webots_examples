@@ -104,10 +104,10 @@ while robot.step(timestep) != 1:
     solMotorGeri_giris=k_vertical_thrust+vertical_input-roll_giris+pitch_giris-yaw_giris
     sagMotorGeri_giris=k_vertical_thrust+vertical_input+roll_giris+pitch_giris+yaw_giris
     
-    solMotorİleri.setVelocity(solMotorileri_giris)
-    solMotorGeri.setVelocity(-solMotorGeri_giris)
-    sağMotorİleri.setVelocity(-sagMotorileri_giris)
-    sağMotorGeri.setVelocity(sagMotorGeri_giris)
+    solMotorİleri.setVelocity(solMotorileri_giris+5.0)
+    solMotorGeri.setVelocity(-solMotorGeri_giris-10.0)
+    sağMotorİleri.setVelocity(-sagMotorileri_giris-5.0)
+    sağMotorGeri.setVelocity(sagMotorGeri_giris+10.0)
     
     Camera.getImage(camera)
     Camera.saveImage(camera,"color.png",1)
